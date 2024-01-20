@@ -1,0 +1,99 @@
+.signin_fullWith {
+  margin-top: 5rem;
+}
+.signin_container {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.signin_text {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+label {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.signin_form_container input,
+.signin_create_account {
+  height: 2.5rem;
+  border-width: 1px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+input:focus {
+  outline: 0.8px solid #505051;
+  border-width: 3px;
+}
+.create_account {
+  background-color: black;
+  color: #fff;
+}
+.signin_create_account {
+  font-weight: 600;
+  border-width: 1px;
+  height: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.signin_create_account:hover {
+  background-color: #e3e4e6;
+}
+
+.signup_link {
+  border: 1px solid black;
+  display: flex;
+  margin: 21px 0;
+  flex-direction: row;
+  font-size: 16px;
+  color: #090909;
+  justify-content: center;
+}
+
+.password {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.forget_pass {
+  margin-left: 15em;
+}
+.forget_pass a,
+.signup_link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #505051;
+}
+.forget_pass a:hover {
+  color: rgb(63, 53, 238);
+  text-decoration-line: underline;
+}
+.signup_link a:hover {
+  color: rgb(63, 53, 238);
+  text-decoration: underline;
+}
+.signup_link a:hover, .forget_pass a:hover{
+  background: none;
+}
+.forget_pass a, .signup_link a{
+  color: blue;
+}
+
+.errorMsg{
+  color: red;
+}

@@ -1,0 +1,87 @@
+.signup_container {
+    display: flex;
+    max-width: 675px;
+    height: 700px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ffffff;
+  }
+  .route_page a:hover {
+    background: none;
+    text-decoration: underline;
+  }
+  .form_container {
+    display: flex;
+    margin-top: 1rem;
+  }
+  .signup_text {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  .route_page {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+  label {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    font-weight: 500;
+  }
+  .signup_fullWith div{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .form_container input,
+  .signUpBtn {
+    width: 28rem;
+    height: 2.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+  }
+  .form_container input{
+    margin-bottom: 12px;
+  }
+  input:focus {
+    outline: 0.8px solid #505051;
+    border-width: 3px;
+  }
+  .create_account {
+    background-color: black;
+    color: #fff;
+  }
+  .signup_container a{
+    color: blue;
+  }
+  .signup_container a:hover {
+    color: rgb(24, 14, 219);
+  }
+  
+  .create_account,
+  .Signup_Google,
+  .Signup_Facebook {
+    font-weight: 600;
+    border-width: 1px;
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+  }
+  .create_account:hover {
+    background-color: #333333;
+  }
+  .Signup_Google:hover {
+    background-color: #e3e4e6;
+  }
+  .Signup_Facebook:hover {
+    background-color: #e3e4e6;
+  }
+
+  

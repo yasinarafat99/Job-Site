@@ -1,0 +1,101 @@
+
+.contactConatiner {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+}
+
+
+
+
+.contactInputFild input {
+  margin-top: 20px;
+  padding: 15px 10px 13px 10px;
+  border-radius: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  font-size: 17px;
+  color: rgb(23, 23, 23);
+  width: 90%;
+}
+
+.contactInputBorder {
+  background-color: #f1f3f5;
+  border: 1px solid rgb(91, 88, 88);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+  width: 40%;
+  border-radius: 10px;
+  height: 100;
+  margin: auto;
+}
+
+.contactInputFild button {
+  background-color: #286ede;
+  margin-top: 30px;
+  padding: 10px 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  width: 90%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactInputFild  button:hover {
+  color: #fff;
+  background-color: #4681e0;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 1114px) {
+  .contactConatiner{
+    padding-top: 90px;
+    height: 100;
+  }
+}
+@media (max-width: 800px) {
+  .contactConatiner{
+    padding-top: 90px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactConatiner{
+    padding-top: 90px;
+    height: 100;
+  }
+
+  .contactInputBorder {
+    width: 80%; 
+    height: 100%;
+  }
+
+  .contactInputFild button {
+    padding: 10px 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .contactConatiner{
+    padding-top: 90px;
+  }
+  .contactInputBorder {
+    width: 100%; 
+  }
+
+  .contactInputFild button {
+    padding: 10px 5px; 
+  }
+}

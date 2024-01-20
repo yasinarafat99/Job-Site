@@ -1,0 +1,98 @@
+.jobFullWidth {
+    font-family: 'Inter, "Noto Sans Bengali UI", ui-icon, sans-serif';
+    margin: 0;
+    padding: 0;
+  }
+  .jobCard h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .jobCard p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .jobFullWidth {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .jobCardText {
+    padding: 5px;
+  }
+  .jobCard {
+    max-width: 829px;
+    margin: 15px auto;
+    background: #fbfbfb;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+    padding: 10px 18px 15px 10px;
+    border-radius: 8px;
+    color: #656565;
+  }
+  .jobCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+  
+  .jobCard h1 a {
+    color: #3f9f45;
+  }
+  
+  .jobCard a {
+    color: #3498db;
+    text-decoration: none;
+    padding-top: 20px;
+  }
+  
+  .jobCard a:hover {
+    background: none;
+    text-decoration: underline;
+  }
+  .location,
+  .company,
+  .jobPosition, .applyTodtlsBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 7px;
+  }
+  .company {
+    align-items: center;
+    display: flex;
+  }
+
+  .favoriteIcon{
+    float: right;
+    top: 0;
+  }
+
+
+  /* Responsive */
+  
+  @media (max-width: 1114px) {
+    .jobFullWidth {
+      padding-top: 90px;
+    }
+    .jobCard{
+      margin-top: 15px;
+  
+    }
+  }
+  @media (max-width: 885px) {
+    .jobFullWidth {
+      padding-top: 90px;
+    }
+    .jobCard {
+      width: 100%;
+      margin-top: 15px;
+      height: 100%;
+    }
+  }
+  

@@ -1,0 +1,113 @@
+.update-post-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.update-post-container h1 {
+  text-align: center;
+  color: #333;
+}
+
+.updateFormContainer {
+  margin-top: 20px;
+}
+
+.updateForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.updateLavelContainer {
+  margin-bottom: 15px;
+}
+
+.updateLavel {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.updateInput,
+.updateTextarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+.updateInput,
+.updateTextarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.updateInput:focus,
+.updateTextarea:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.updateLavelContainer {
+  margin-bottom: 20px;
+}
+
+.updateLavel {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.updateButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.updateButton:hover {
+  background-color: #45a049;
+}
+
+
+/* Responsive Styles */
+
+@media (max-width: 1114px) {
+  .update-post-container {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 800px) {
+  .update-post-container {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .update-post-container {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .update-post-container {
+    padding-top: 90px;
+  }
+}
+
